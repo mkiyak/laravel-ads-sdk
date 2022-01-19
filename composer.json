@@ -16,7 +16,7 @@
 	},
 
 	"require-dev": {
-		"php-coveralls/php-coveralls": "^2.0",
+		"php-coveralls/php-coveralls": "^2.0"
 	},
 
 	"autoload": {

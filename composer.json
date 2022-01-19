@@ -11,7 +11,6 @@
         }
     ],
 	"require": {
-		"microsoft/bingads": "^0.12",
 		"facebook/php-business-sdk": "^12.0"
 	},
 

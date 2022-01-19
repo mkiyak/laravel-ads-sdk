@@ -1,0 +1,37 @@
+{
+	"description": "A Laravel Ads SDK for Google Ads, Bing Ads and Facebook Ads API",
+	"keywords": ["ads", "google-ads","bing-ads", "api", "facebook-ads"],
+	"name": "mkiyak/laravel-ads-sdk",
+	"homepage": "https://github.com/kyakmehmet/laravel-ads-sdk",
+	"type": "package",
+	"authors": [
+        {
+            "name": "Mehmet KIYAK",
+            "email": "mkiyak511@gmail.com"
+        }
+    ],
+	"require": {
+		"microsoft/bingads": "^0.12",
+		"facebook/php-business-sdk": "^12.0"
+	},
+
+	"require-dev": {
+		"php-coveralls/php-coveralls": "^2.0",
+	},
+
+	"autoload": {
+		"psr-4": {
+			"LaravelAds\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"LaravelAds\\Providers\\LaravelAdsProvider"
+			],
+			"aliases": {
+				"LaravelAds": "LaravelAds\\Facades\\LaravelAds"
+			}
+		}
+	}
+}
